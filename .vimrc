@@ -47,6 +47,9 @@ nnoremap <leader>cr :!clear && ruby -w -c %<cr>
 " Turn line numbering on and off
 map <f1> :set invnumber<CR>
 
+" Use f2 for YCM FixIt
+map <f2> :YcmCompleter FixIt<cr>
+
 " For YouCompleteMe plugin
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_add_preview_to_completeopt = 1
